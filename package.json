@@ -1,0 +1,27 @@
+{
+  "name": "space-aurora-theme",
+  "displayName": "Space Aurora Theme",
+  "description": "A colorful theme with a careful selection of colors to reduce eye strain and improve code readability.",
+  "publisher": "oxechicao",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oxechicao/space-aurora-theme"
+  },
+  "icon": "theme.png",
+  "version": "0.2.2",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Space Aurora Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Space Aurora Theme-color-theme.json"
+      }
+    ]
+  }
+}
